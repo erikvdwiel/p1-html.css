@@ -1,8 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  font-size: 24px;  
+  font-family: Verdana;
+  list-style-type: circle;
+  
+  }
+  
+  .tekst2
+  
+  {
+  font-size: 24px;  
+  font-family: Verdana;
+  }
 html {
   font-size: 62.5%;
 }
