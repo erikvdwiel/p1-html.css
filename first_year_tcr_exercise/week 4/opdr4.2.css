@@ -1,6 +1,6 @@
 h1 {
     font-size: 24px;
-    color: blue;
+    color: red;
     font-weight: bolder;
     font-style: italic;
 }
@@ -16,12 +16,14 @@ h3 {
 }
 
 p {
+    border-style: solid; 
+    border: 5px solid black;
     color:#4D4D4D ;
 }
 
-p.a {
+p1 {
     font-weight: bolder;
-    color: blue;
+    color: red;
 }
 
 a {
@@ -47,5 +49,5 @@ a:link {
  header { 
   background-image: url(https://www.1337.games/app/uploads/2021/05/Dualsense-all-colors.jpg);
   padding: 60px;
-
  }
+
