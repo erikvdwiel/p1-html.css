@@ -1,11 +1,11 @@
-* {
+ {
   font-size: 24px;  
   font-family: Verdana;
   list-style-type: circle;
   
   }
   
-  .tekst2
+ .tekst2
   
   {
   font-size: 24px;  
@@ -45,3 +45,19 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+html {background-image: url(https://media.discordapp.net/attachments/978263568816427091/1022800265918816256/image0.jpg?width=1040&height=585);
+  background-repeat: no-repeat;
+  background-size: cover;}
+ 
+  Li { 
+    color: green;
+  }
+
+  h1 {
+     color: green;
+  }
+
+  h2 {
+    color: green;
+  }
