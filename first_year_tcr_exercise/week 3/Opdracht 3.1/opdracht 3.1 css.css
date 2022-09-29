@@ -1,4 +1,4 @@
- {
+ *{
   font-size: 24px;  
   font-family: Verdana;
   list-style-type: circle;
@@ -13,16 +13,25 @@
   }
 html {
   font-size: 62.5%;
+  background-color: black;
 }
 body {
+  font-family: "Goldman", cursive;
+}
+footer {
+  background-color: #00a8c7;
+  bottom: 0%;
+  width: 100%;
+  position: fixed;
+  height: 30px;
   font-family: "Goldman", cursive;
 }
 
 nav {
   display: flex;
   width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
+  padding: 1rem;
+  min-height: 5vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
@@ -43,7 +52,7 @@ nav a {
   text-decoration: none;
 }
 nav img {
-  width: 5vw;
+  width: 8vw;
 }
 
 html {background-image: url(https://media.discordapp.net/attachments/978263568816427091/1022800265918816256/image0.jpg?width=1040&height=585);
@@ -55,9 +64,11 @@ html {background-image: url(https://media.discordapp.net/attachments/97826356881
   }
 
   h1 {
+    font-weight: bold;
      color: green;
   }
 
   h2 {
+    font-weight: bold;
     color: green;
   }
