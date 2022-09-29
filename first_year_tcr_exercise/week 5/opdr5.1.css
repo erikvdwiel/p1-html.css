@@ -1,0 +1,89 @@
+*{
+    font-size: 24px;  
+    font-family: Verdana;
+    list-style-type: circle;
+    
+    }
+    
+   .tekst2
+    
+    {
+    font-size: 24px;  
+    font-family: Verdana;
+    }
+  html {
+    font-size: 62.5%;
+    background-color: black;
+  }
+  body {
+    font-family: "Goldman", cursive;
+  }
+  footer {
+    background-color: #00a8c7;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    position: fixed;
+    height: 30px;
+    font-family: "Goldman", cursive;
+    text-align: center;
+
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    min-height: 5vh;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  nav img {
+    width: 8vw;
+  }
+  
+.hackimg{
+    background-image: url(https://media.discordapp.net/attachments/978263568816427091/1022800265918816256/image0.jpg?width=1040&height=585);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+   
+    Li { 
+      color: green;
+    }
+  
+     h1 {
+      font-weight: bold;
+       color: white;
+       text-align: center;
+       font-size: 30px;
+    }
+  
+    h2 {
+      font-weight: bold;
+      color: white;
+    }
+
+    p{
+        color: white;
+    }
+ 
