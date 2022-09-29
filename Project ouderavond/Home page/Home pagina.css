@@ -1,8 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
 header{
     background-color: darkgreen  ;
     padding: 60px;
 }
-image {
-    float: left;
+img {
+  border-radius: 8%;
 }
-html{background-color: teal;}
+Img.tcr {position: relative;}
+html{
+    background-color: teal;
+}
+a{
+text-decoration: none;
+color: black;
+}
+
+nav img {
+    justify-content: flex-start;
+    margin: 0%;
+    padding: 0%;
+    width: 200;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
