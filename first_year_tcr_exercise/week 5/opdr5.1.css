@@ -2,9 +2,52 @@
     font-size: 24px;  
     font-family: Verdana;
     list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
     }
     
+    ul{
+      list-style-type: none;
+      overflow: hidden;
+    }
+    
+    li {
+      float: left;
+    }
+
+   li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    display: inline-block;
+   }
+
+   .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20vw;
+    z-index: 1;
+    box-shadow: 0rem o.5rem 1rem 0rem rgba(0, 0, 0, 2);
+   }
+
+   .dropdown-content a {
+    color: black;
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: left;
+    
+   }
+
+   .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #E9E9E9;
+    
+   }
+
    .tekst2
     
     {
@@ -60,7 +103,7 @@
     width: 8vw;
   }
   
-.hackimg{
+html{
     background-image: url(https://media.discordapp.net/attachments/978263568816427091/1022800265918816256/image0.jpg?width=1040&height=585);
     background-repeat: no-repeat;
     background-size: cover;
