@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    width: 1200px;
+}
+
+.item1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.item2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.item3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.item4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
