@@ -1,0 +1,26 @@
+header{
+    
+}
+nav {
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    min-height: 5vh;    
+    background: black;
+}
+ul{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
