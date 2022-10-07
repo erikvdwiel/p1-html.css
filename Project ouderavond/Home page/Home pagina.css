@@ -10,7 +10,7 @@ header{
 img {
   border-radius: 8%;
 }
-Img.tcr {position: relative;}
+
 html{
     background-color: teal;
 }
@@ -20,15 +20,22 @@ color: black;
 }
 
 nav img {
+    display: flex;
     justify-content: flex-start;
     margin: 0%;
     padding: 0%;
-    width: 200;
+    width: 250;
     height: 100px;
+}
+.tcr{
+    display: flex;
+   
+    justify-content: center;
 }
 
 nav {
     display: flex;
     flex-direction: row;
+    
 }
 
