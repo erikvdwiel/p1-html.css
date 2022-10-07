@@ -14,10 +14,12 @@
     }
     
     li {
-      float: left;
+      display: flex;
+      justify-content: left;
     }
 
    li a {
+    display: flex;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -26,8 +28,9 @@
    }
 
    .dropdown-content{
-    display: none;
+    display: flex;
     position: absolute;
+    justify-content: space-between;
     background-color: #f9f9f9;
     min-width: 20vw;
     z-index: 1;
@@ -129,4 +132,3 @@ html{
     p{
         color: white;
     }
- 
