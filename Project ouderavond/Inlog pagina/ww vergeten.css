@@ -1,0 +1,8 @@
+*{
+    background-image: url(Ww\ cat.gif);
+}
+h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
