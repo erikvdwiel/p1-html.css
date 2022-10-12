@@ -1,0 +1,21 @@
+.rood{
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+
+}
+
+.geel{
+    background-color: yellow;
+    height: 30vh;
+}
+
+.oranje{
+    background-color: orange;
+    height: 30vh;
+}
+
+.groen{
+    background-color: lightgreen;
+    height: 30vh;
+}
