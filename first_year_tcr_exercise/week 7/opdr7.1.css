@@ -1,21 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 .rood{
-    background-color: red;
+    background-color: #ea4d4b;
     height: 10vh;
     width: 100%;
 
 }
 
 .geel{
-    background-color: yellow;
+    background-color: #f9ca22;
     height: 30vh;
 }
 
 .oranje{
-    background-color: orange;
+    background-color: #f0922b;
     height: 30vh;
 }
 
 .groen{
-    background-color: lightgreen;
+    background-color: #69b04c;
     height: 30vh;
 }
