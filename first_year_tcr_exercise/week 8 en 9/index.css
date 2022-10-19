@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+}
+
+#titel{
+    font-family: 'Pattaya', sans-serif;
+    color: white;
+}
