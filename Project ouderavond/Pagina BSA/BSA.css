@@ -1,0 +1,11 @@
+#tcr{
+    border-radius: 27px;
+    padding: 5px;
+    width: 250px;
+    height: 130px;
+}
+
+#hd{
+    display: flex;
+    justify-content: center;
+}
