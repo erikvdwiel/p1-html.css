@@ -19,6 +19,52 @@ html{
     display: flex;
    justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top:0px;
+}
+
+#ps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    border-radius: 27px;
+    width: 50%;
+    height: 200px;
+}
+
+#vd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    border-radius: 27px;
+    width: 50%;
+    height: 200px;
+}
+
+#Voorwaarden{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Proces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img2{
+     width: 350px;
+     height: 200px;
+}
+
+#img3{
+    width: 350px;
+    height: 200px;
 }
 
 header{
