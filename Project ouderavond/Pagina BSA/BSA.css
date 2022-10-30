@@ -1,11 +1,33 @@
-#tcr{
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    background-color: #164f4f
+}
+
+#img1{
     border-radius: 27px;
     padding: 5px;
     width: 250px;
     height: 130px;
+    float: left;
 }
 
-#hd{
+#BSA{
     display: flex;
-    justify-content: center;
+   justify-content: space-around;
+    align-items: center;
+}
+
+header{
+display: flex;
+padding: 20px;
+width: 1100px;
+height: 70px;
+border-radius: 37px;
+background-color: #05854C;
+align-items: center;
+justify-content: center;
 }
