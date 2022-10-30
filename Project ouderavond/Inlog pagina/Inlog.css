@@ -58,3 +58,10 @@ a{
     color: #13c3e2;
     text-decoration: none;
 }  
+#image-1
+{
+    border-radius: 27px;
+    padding: 5px;
+    width: 220px;
+    height: 100px;
+}
