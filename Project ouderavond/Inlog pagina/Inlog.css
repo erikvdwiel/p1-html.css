@@ -65,3 +65,14 @@ a{
     width: 220px;
     height: 100px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
