@@ -7,6 +7,10 @@ html{
     background-color: #164f4f
 }
 
+#hd{
+    font-size: 50px;
+}
+
 #img1{
     border-radius: 27px;
     padding: 5px;

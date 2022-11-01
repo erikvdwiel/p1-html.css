@@ -1,5 +1,4 @@
-html
-{
+html{
     background-color: #164f4f;
 }
 
@@ -14,16 +13,14 @@ html
 {
     border-radius: 27px;
     padding: 20px;
-    width: 500px;
-    height: 300px;
-    display: contents;
-    
-
-    
+    width: 400px;
+    height: 250px;    
+    display: flex;
+    float: right;
 }
 header 
 {
-    background-color: lightgrey;
+    background-color: #05854C;
     padding: 20px;
     width: 1200px;
     height: 100px;
@@ -40,19 +37,12 @@ h1
     justify-content: center;
     text-align: center;
 }
-h3
-{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 400px;
-    background-color: lightgrey;
-}
+
   #informatie-1
   {
-    background-color: lightgrey ;
+    background-color: #05854C ;
     height: 23vh;
-    width: 55vw;
+    width: 55%;
     border-radius: 12px;
     text-align: center;
     justify-content: center;
@@ -61,17 +51,25 @@ h3
   }
   #informatie-2
   {
-    background-color: lightgrey;
+    background-color: #05854C;
     height: 23vh;
-    width: 55vw;
+    width: 55%;
     border-radius: 12px;
     text-align: center;
     justify-content: center;
     font-size: large;
     
   }
-  h2{
-    color: #96bd100;
-  }
-
+  
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    
+}
 
