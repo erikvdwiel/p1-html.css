@@ -54,10 +54,12 @@ span{
     font-size: 17px;  
 }  
 a{  
-    float: right;  
     color: #13c3e2;
     text-decoration: none;
 }  
+#ww-vergeten{
+    float: right;
+}
 #image-1
 {
     border-radius: 27px;

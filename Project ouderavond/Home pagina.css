@@ -18,10 +18,10 @@ header{
     justify-content: center;
 }
 img {
-  border-radius: 27px;
+    border-radius: 27px;
     padding: 5px;
-    width: 250px;
-    height: 130px;
+    width: 220px;
+    height: 100px;
     float: left;
 }
 
@@ -51,10 +51,11 @@ color: black;
 #nav-img {
     display: flex;
     float: left;
-    margin: 0%;
-    padding: 0%;
-    width: 250;
+    border-radius: 27px;
+    padding: 5px;
+    width: 220px;
     height: 100px;
+    margin: 0%;
 }
 
 

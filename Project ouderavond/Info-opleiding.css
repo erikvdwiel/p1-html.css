@@ -6,13 +6,13 @@ html
 {
     border-radius: 27px;
     padding: 5px;
-    width: 250px;
-    height: 130px;
+    width: 220px;
+    height: 100px;
     float: left;
 }
 #pagina-1
 {
-    background-color: lightgrey;
+    background-color: #05854C;
     height: 14vh;
     width: 55vw;
     border-radius: 12px;
@@ -22,7 +22,7 @@ html
 }
 #pagina-2
 {
-    background-color: lightgrey;
+    background-color: #05854C;
     height: 20vh;
     width: 55vw;
     border-radius: 12px;
@@ -32,7 +32,7 @@ html
 }
 h1
 {
-    background-color: lightgrey;
+    background-color: #05854C;
     padding: 10px;
     width: 1200px;
     height: 90px;
@@ -48,4 +48,15 @@ h1
     width: 500px;
     height: 300px;
     float: right;  
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
