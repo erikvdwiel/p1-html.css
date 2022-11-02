@@ -1,0 +1,93 @@
+html
+{
+    background-color: #164f4f;
+}
+#onderwerp{
+    background-color: #05854c;
+    float: right;
+}
+#Ons{
+    background-color: #05854c;
+    height: 5vh;
+    width: 31vw;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    align-items: center;
+    margin-left: 21vw;
+}
+img{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    border-radius: 27px;
+}
+#logotcr{
+    display: flex;
+    flex-direction: row;
+}
+#overonsinfo{
+    display: flex;
+    justify-content: space-between;
+}
+#Erik{
+    background-color: #05854c;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    float:  left;
+}
+#Gian{
+    background-color: #05854c;
+    height: 60vh;
+    width: 30vw;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: left;
+    font-size: large;
+    float:  right;
+    
+}
+#GianH2{
+text-align: center;
+}
+#ErikH2{
+text-align: center;
+}
+#image-gian{
+    border-radius: 27px;
+    padding: 5px;
+    width: 15vw;
+    height: 30vh;
+    display: flex; 
+}
+#image-erik{
+    border-radius: 27px;
+    padding: 5px;
+    width: 15vw;
+    height: 30vh;
+    display: flex; 
+}
+#Foto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    position: absolute;
+    bottom: 0%;
+    width: 99%;
+}
+
+    
