@@ -1,0 +1,97 @@
+
+html{
+    background-color:#164f4f ;
+}
+#onderwerp{
+    background-color: #05854c;
+    height: 10vh;
+    width: 62vw;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    align-items: center;
+    margin-left: 10vw;
+}
+img{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    border-radius: 27px;
+}
+#logotcr{
+    display: flex;
+    flex-direction: row;
+}
+#Examenplan{
+    background-color: #05854c;
+    height: 60vh;
+    width: 99vw;
+    border-radius: 12px;
+    text-align: center ;
+    justify-content: space-evenly;
+    font-size: large;
+    display: flex;
+    
+}
+#thema{
+    text-align: center;
+    background-color: #05854C;
+    width: 60vw;
+    height: 25vh;
+    border-radius: 27px;
+    padding: 2%;
+}
+#image-2{
+    border-radius: 17px;
+    height: 45vh;
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#linkEP{
+    background-color: grey;
+    text-align: center ;
+    justify-content:center;
+    font-size: large;
+    display: flex; 
+    border-radius: 17px;
+    height: 5vh;
+    width: 15vw;
+    padding: 1%;
+}
+#linkEP:link{
+    text-decoration: none;
+  }
+  
+#linkEP:visited {
+    text-decoration: none;
+  }
+  
+#linkEP:hover {
+    text-decoration: underline;
+  }
+  
+#linkEP:active {
+    text-decoration: underline;
+  }
+#linkEP{
+    color: grey;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #05854C;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
