@@ -9,7 +9,7 @@ html,body,div{
 
 #wrapper{
    margin: auto;
-   width: 1440px;
+   width: 100%;
    background-color: red;
 }
 
@@ -57,4 +57,39 @@ html,body,div{
     border-radius: 5px;
     color: black;
     font-weight:bold;
+}
+
+.greens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.green{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 100px ;
+    width: 25%;
+    
+}
+
+.blues{
+    display: flex;
+  
+    flex-direction: column;
+    
+
+}
+
+.blue{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 100px ;
+    width: 100%;
+   border: black;
+   border-style: solid;
 }
