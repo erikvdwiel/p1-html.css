@@ -78,18 +78,46 @@ html,body,div{
 
 .blues{
     display: flex;
-  
     flex-direction: column;
-    
-
 }
 
 .blue{
     display: flex;
+    
     justify-content: center;
     background-color: blue;
     height: 100px ;
     width: 100%;
    border: black;
    border-style: solid;
+}
+
+.yellow{
+    color: red;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    height: 100px ;
+    width: 100%;
+   border: black;
+   border-style: solid;
+}
+.yellows{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    height: 100px ;
+    width: 25%;
+    
+}
+
+#footers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
