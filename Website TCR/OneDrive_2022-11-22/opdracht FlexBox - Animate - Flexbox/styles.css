@@ -107,17 +107,21 @@ html,body,div{
     flex-direction: column-reverse;
 }
 
-#footer{
+.footer{
     display: flex;
     justify-content: center;
     background-color: purple;
-    height: 100px ;
+    height: 100px;
     width: 25%;
     
 }
 
 #footers{
+    background-color: red;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     justify-content: space-between;
+    height: 100px ;
+    width: 100%;
 }
